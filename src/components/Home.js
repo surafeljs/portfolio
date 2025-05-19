@@ -721,7 +721,7 @@ const Home = () => {
                       size={38}
                     ></Github>
                   </a>
-                  <a href="https://linkedin.com/in/surafeljs">
+                  <a href="https://in/surafeljs">
                     <Linkedin
                       className="text-[rgb(52,152,219)]  ease-in-out"
                       size={38}
