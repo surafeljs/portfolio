@@ -420,6 +420,29 @@ const Home = () => {
                     </div>
                     <div class="skill-item">
                       <div class="skill-info flex justify-between mb-1">
+                        <span>PostgreSQL</span>
+                        <span>70%</span>
+                      </div>
+                      <div class="progress-bar mb-4 animate-fade-in">
+                        <LinearProgress
+                          variant="determinate"
+                          value={80}
+                          sx={{
+                            height: 10,
+                            width: "100%",
+                            borderRadius: 5,
+                            backgroundColor: "rgb(229, 231, 235)",
+                            "& .MuiLinearProgress-bar": {
+                              borderRadius: 5,
+                              backgroundColor: "rgb(52, 152, 219)",
+                              transition: "transform 1.5s ease-in-out",
+                            },
+                          }}
+                        />
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-info flex justify-between mb-1">
                         <span>Firebase</span>
                         <span>75%</span>
                       </div>
@@ -688,8 +711,9 @@ const Home = () => {
                     className="text-[rgb(52,152,219)] "
                     size={22}
                   ></Telephone>
+
                   <span className="font-sans text-text-md opacity-95  text-[rgb(44,62,80)]">
-                    +251 901158062
+                    +251 952438087
                   </span>
                 </div>
                 <div className="info-item mb-3 flex items-center gap-3">
